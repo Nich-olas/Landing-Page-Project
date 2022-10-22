@@ -1,0 +1,19 @@
+* {
+    border: 1px red solid;
+}
+
+.section-1 {
+    background-color: #1f2937;
+}
+
+#header{
+    font: 24px;
+    color: #f9faf8;
+    display: flex;
+}
+
+#main-hero {
+    font: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
