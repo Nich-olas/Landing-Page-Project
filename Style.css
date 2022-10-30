@@ -1,8 +1,8 @@
-*{
+* {
     \\border: aqua 1px solid;
 }
 
-body{
+body {
     margin: 0;
 }
 
@@ -21,24 +21,24 @@ html {
     margin-left: 10%;
 }
 
-#header{
+#header {
     font: 24px;
     color: #f9faf8;
     padding: 0;
     font-weight: bolder;
 }
 
-.nav-links{
+.nav-links {
     margin-right: 10%;
     margin-top: auto;
 }
 
-.nav-list{
+.nav-list {
     padding-left: 0%;
     margin-top: .7em;
 }
 
-li{
+li {
     color: white;
     display: inline-flex;
     margin: 5px;
@@ -50,14 +50,14 @@ li{
     justify-content: space-between;
 }
 
-.first-left-box{
+.first-left-box {
     margin-left: 10%;
     padding-top: 4rem;
     padding-bottom: 4rem;
     width: 35%;
 }
 
-.first-right-box{
+.first-right-box {
     margin-right: 10%;
     width: 500px;
     height: 300px;
@@ -67,7 +67,7 @@ li{
     margin-bottom: 5%;
 }
 
-.first-right-box p{
+.first-right-box p {
     padding-top: 120px;
 }
 
@@ -80,7 +80,7 @@ li{
     padding-right: 30%;
 }
 
-#sec-hero{
+#sec-hero {
     font-size: 18px;
     color: #E5E7EB;
     text-align: left;
@@ -89,7 +89,7 @@ li{
     padding-right: 30%;
 }
 
-#button-1{
+#button-1 {
     background-color: #3882F6;
     border-radius: 15px;
     height: 30px;
@@ -104,10 +104,6 @@ a {
     text-decoration: none;
 }
 
-.section-2{
-    border: red 1px solid;
-}
-
 h2 {
     text-align: center;
     margin-top: 0;
@@ -115,29 +111,86 @@ h2 {
     display: block;
 }
 
-.box-1 {
-    border: aqua 1px solid;
-    height: 20px;
-    width: 20px;
-}
-
-.box-2 {
-    border: aqua 1px solid;
-    height: 20px;
-    width: 20px;
-}
-.box-3 {
-    border: aqua 1px solid;
-    height: 20px;
-    width: 20px;
-}
-.box-4 {
-    border: aqua 1px solid;
-    height: 20px;
-    width: 20px;
-}
-
 .wrapper {
-    border: blue 1px solid;
     display: flex;
+    justify-content: space-evenly;
+}
+
+.spot-one {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.spot-two {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.spot-three{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.spot-four {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+#hunter-logo {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+}
+
+#warlock {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+}
+
+#titan {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+}
+
+#taken{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+}
+
+.section-3{
+    background-color: #e5e7eb;
+}
+
+.section-3 p{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+}
+
+#quote {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#credit{
+    justify-content: right;
+    font-weight: bold;
 }
